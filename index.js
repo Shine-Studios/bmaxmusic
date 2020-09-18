@@ -12,11 +12,7 @@ const PREFIX = process.env.PREFIX;
 const youtube = new YouTube(process.env.YTAPI_KEY);
 const queue = new Map();
 
-client.on('ready', () => {
-    console.log(`Logeado como ${client.user.tag}!`);
-    client.user.setActivity(`bMax | Usa ${prefix}ayuda, Para ver mis comandos`);
-});
-
+bot.on("ready", () => console.log(`Bot ${bot.user.tag} iniciado correctamente!`));
 bot.on("warn", console.warn);
 bot.on("error", console.error);
 bot.on("shardDisconnect", (event, id) => console.log(`La Id ${id} ha sido desconectada (${event.code}) ${event}, intenta reconectarlos...`));
