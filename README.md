@@ -3,6 +3,9 @@
 > A dedicated music bot example project for Zhycorp Development made by iCrawl
 
 This open sourced project is a dedicated example tutorial for our community's content, feel free to use and modify as good as you like. Written with [discord.js](https://discord.js.org/#/) and [v12 (stable)](https://discordjs.guide/additional-info/changes-in-v12.html) as the version.
+[![Run on Repl.it](https://repl.it/badge/github/Shine-Studios/bmaxmusic)](https://repl.it/github/Shine-Studios/bmaxmusic)
+
+created by bMax Team!
 
 ## Features
 * Full playback control
