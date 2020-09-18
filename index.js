@@ -2,7 +2,7 @@ const { Client, Util, MessageEmbed } = require("discord.js");
 const YouTube = require("simple-youtube-api");
 const ytdl = require("ytdl-core");
 require("dotenv").config();
-require("./server.js");
+require("./config.json");
 
 const bot = new Client({
     disableMentions: "all"
